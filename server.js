@@ -18,7 +18,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_API_KEY =AQ.Ab8RN6I68e2IzZU4qmtCOggovmScXmOES4dNreO7PXbiyPL6ZQ
 const GEMINI_MODEL = "gemini-2.5-flash";
 const MONGODB_URI = process.env.MONGODB_URI;
 const JWT_SECRET = process.env.JWT_SECRET;
